@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Hello {{name}}</h1>
+  {% if friend_list %}
+  {% for friend in friend_list %}
+  <p>{{friend}}</p>
+  {% endfor %}
+  {% endif %}
+</body>
+
+</html>
